@@ -1,0 +1,118 @@
+:root{
+     --first-color: rgba(254, 209, 54, 1);
+    --second-color: #000;
+    --third-color: rgba(119, 119, 119, 1);
+}
+.container{
+width: 934px;
+margin: 0 auto;
+}
+ul{
+   list-style-type: none;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 110px;
+}
+.logo{
+    font-family: "Bilbo Swash Caps";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 1,3px;
+    color: var(--first-color);
+     text-align: center;
+     display: flex;
+     align-items: center;
+}
+.header-item{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 41px;
+    text-align: center;
+    color: var(--first-color);
+}
+
+
+
+.main{
+    display: block;
+    height: 330px;
+}
+.main-ul{
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+.main-h{
+    font-family: "Montserrat" ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: var(--second-color);
+    margin-bottom: 0;
+}
+.main-ul-h{
+    font-family: "Montserrat" ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+    text-align: center;
+    color: var(--second-color);
+    margin-bottom: 0;
+}
+.main-ul-p{
+    font-family: "RobotoSlab";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: var(--third-color);
+    margin-top: 0;
+}
+
+
+
+.footer-h{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -1px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.footer-button{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(254, 209, 54, 1);
+    border: none;
+    padding:20px 45px 30px 45px  ;
+    border-radius: 5px;
+    margin-bottom: 115px;
+}
+.footer{
+    background-color:rgba(34, 34, 34, 1) ;
+    height: 679px;
+}
