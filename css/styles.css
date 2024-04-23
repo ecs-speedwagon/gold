@@ -96,7 +96,37 @@ ul{
     padding-top: 100px;
 }
 
+.footer-item{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
+.footer-input{
+    height: 52px;
+    width: 450px;  
+    border: none; 
+    border-radius: 3px;
+}
+.footer-input:placeholder-shown{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.footer-item-message{
+    height: 205px;
+    width: 450px;
+    border: none; 
+    border-radius: 3px;
+}
+.footer-item-message:placeholder-shown{
+    padding-left: 20px;
+    padding-bottom: 175px;
+}
 
 .footer-button{
     font-family: "Montserrat";
@@ -111,8 +141,11 @@ ul{
     padding:20px 45px 30px 45px  ;
     border-radius: 5px;
     margin-bottom: 115px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 .footer{
     background-color:rgba(34, 34, 34, 1) ;
-    height: 679px;
+    height: 670px;
 }
